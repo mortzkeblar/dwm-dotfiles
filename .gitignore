@@ -1,7 +1,8 @@
-*/*.orig
-*/*.rej
-*/*.o
-*/dmenu
-*/dwm
-*/slstatus
-*/st
+**/*.orig
+**/*.rej
+**/*.o
+**/dmenu
+**/dwm
+**/slstatus
+**/st
+slstatus/components/*.o

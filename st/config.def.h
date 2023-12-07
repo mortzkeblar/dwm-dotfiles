@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Iosevka NF Medium:pixelsize=15:antialias=true:autohint=true";
+static char *font = "Iosevka SS09:pixelsize=18:antialias=true:autohint=true";
 static int borderpx = 15;
 
 /*

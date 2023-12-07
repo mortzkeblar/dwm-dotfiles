@@ -10,8 +10,8 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const int splitstatus        = 1;        /* 1 for split status items */
 static const char *splitdelim       = ";";       /* Character used for separating status */
 
-static const char *fonts[]          = { "Iosevka NF Medium:size=12" };
-static const char dmenufont[]       = "Iosevka NF Medium:size=12";
+static const char *fonts[]          = { "Iosevka NF Medium:size=11" };
+static const char dmenufont[]       = "Iosevka NF Medium:size=11";
 static const char col_gray1[]       = "#010008";
 static const char col_gray2[]       = "#000000";
 static const char col_gray3[]       = "#dbc1db";
@@ -77,7 +77,7 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
-static const char *termcmd[]  = { "alacritty", NULL };
+static const char *termcmd[]  = { "st", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
