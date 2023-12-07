@@ -1,4 +1,7 @@
 */*.orig
 */*.rej
+*/*.o
+*/dmenu
 */dwm
-
+*/slstatus
+*/st
